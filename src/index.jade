@@ -1,0 +1,85 @@
+html
+   head
+      title omnicon
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      meta(charset="utf-8")
+      link(href='css/reset.css', rel='stylesheet')
+      link(href='css/font.css', rel='stylesheet')
+      link(href='css/style.min.css', rel='stylesheet')
+   body
+      main
+         aside
+            .aside-top
+               button.burger <span class='icon-burger'></span> OMNIGON
+               button.btn-new-vote New vote
+            .aside-section
+               .aside-section-title Draft
+               a.aside-section-item.new-vote
+                  span.circle
+                  p New vote
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player and win tickets to the finals
+            .aside-section
+               .aside-section-title Active
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player
+            .aside-section
+               .aside-section-title Closed
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player
+               a.aside-section-item
+                  img(src=('img-content/man.jpg'))
+                  p Choose best Wimbledon player
+
+         article
+            section
+               nav
+                  a(href='#') Detail
+                  a.active(href='#') Content
+                  a(href='#') Ads
+                  a(href='#') Data capture
+                  a(href='#') Look and feel
+               .toggle-status
+                  form.settings-toggle-form
+                     p Present in random order
+                     input(type='checkbox', name="toggle", class='toggle', id="toggle-1")
+                     label(for='toggle-1')
+               .main
+                  .main-counter <span class='icon-check'></span> Embed at least 2 players*
+                  .main-box
+                     a.main-box-item
+                        img(src=('img-content/man.jpg'))
+                        p DeMar DeRozan
+                     a.main-box-item
+                        img(src=('img-content/man.jpg'))
+                        p DeMar DeRozan
+                     a.main-box-item
+                        img(src=('img-content/man.jpg'))
+                        p DeMar DeRozan
+                     a.main-box-item
+                        img(src=('img-content/man.jpg'))
+                        p DeMar DeRozan
+                     a.main-box-item
+                        img(src=('img-content/man.jpg'))
+                        p DeMar DeRozan
+                     a.main-box-item.with-no-img
+                        img(src=('img-content/placeholder.jpg'))
+                        p DeMar DeRozan
+                     a.main-box-item.new-item
+
+
+
+      script(type='text/javascript', src='js/jquery.js')
+      script(type='text/javascript', src='js/script.js')
